@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Dancing+Script:wght@400&family=Nunito:wght@400&family=Merriweather:wght@400&family=Playfair+Display:wght@400&family=Roboto+Slab:wght@400&family=Kanit:wght@400;700&display=swap');
+
+
+
+.heroBG {
+    /* background: rgb(0, 0, 0); */
+    /* background-image: url('/home/bg.png'); */
+    background-size: cover;
+    /* Optional: to cover the entire area */
+    background-position: center;
+    /* Optional: to center the image */
+    background-repeat: no-repeat;
+    /* Optional: to prevent the image from repeating */
+    z-index: 1000;
+}
+
+.scrollToAbout {
+    margin-top: -70px;
+    height: 60px;
+    border-radius: 20px;
+    width: 35px;
+    border: 3px solid rgb(165, 165, 165);
+    justify-content: center;
+    display: flex;
+    align-items: first baseline;
+}
+
+.moveDot {
+    height: 13px;
+    width: 13px;
+    background-color: rgb(165, 165, 165);
+    border-radius: 10px;
+    margin: 5px 0;
+    animation: moveUpDown 1.5s infinite;
+}
+
+.gradient-title {
+    background-color: #4158D0;
+    background: linear-gradient(45deg, #4158D0 0%, #C850C0 26%, #14fdff 100%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s ease infinite;
+
+}
+.gradient-text {
+    font-weight: bold;
+    background-color: #4158D0;
+    background: linear-gradient(45deg, #4158D0 0%, #C850C0 46%, #14fdff 100%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(25px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

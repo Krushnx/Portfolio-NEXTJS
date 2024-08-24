@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
+    backdrop-filter: blur(10px);
+    height: 80px;
+    width: 80%;
+    padding: 0 20px;
+    justify-content: space-between;
+    border: 1px solid var(--color-navbarBorder-dark);
+    border-radius: 50px;
+    z-index: 100;
+    position:fixed;
+
+}
+
+.myname
+{
+    font-family: 'Dancing Script', cursive;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.navlink {
+    transition: 0.2s;
+}
+
+.navlink:hover {
+    box-shadow: 0 2px 0 rgba(255, 255, 255, 1);
+
+}
+
+
+.header{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    padding: 80px 0 40px 0;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .blob-my {
+        display: none;
+    }
+    .header{
+
+        padding: 80px 0;
+    }
+
+    .navbaritems {
+        position: absolute;
+        top: -80px;
+        right: -10vw;
+        background-color: rgba(0, 0, 0);
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+        width: 100vw;
+        transition: 2s ease-in-out;
+        padding-top: 130px;
+        padding-left: 140px;
+
+    }
+
+    .toggle {
+        z-index: 8;
+    }
+
+    .navlink {
+        text-align: center;
+        margin: 70px 3px;
+    }
+
+    .footer-subscribe {
+        display: none;
+    }
+
+}
+
+.blob-my {
+    position: absolute;
+    right: -15%;
+    top: 0;
+    background-color: var(--color-light-purple);
+    width: 600px;
+    height: 100vh;
+    filter: blur(300px);
+    opacity: .3;
+    animation: 1s linear infinite alternate-reverse breath
+  }
+  @keyframes breath {
+    from {
+        opacity: .3
+    }
+  
+    to {
+        opacity: .5
+    }
+  }
