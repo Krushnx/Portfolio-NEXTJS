@@ -14,7 +14,8 @@ const About = ({ isComponent }) => {
             <div className="md:p-[60px] flex justify-between flex-col-reverse md:flex-row">
                 <div className="mywork ">
                     <h2 className='text-[100px] font-kanit leading-[80px] font-medium mb-[30px] tracking-tight hidden md:block'>About <br></br>Me</h2>
-                    <p className='md:w-[460px] tracking-[1px] message text-[18px] font-summery  text-gray-500'>Enthusiastic <span className='text-gray-300'>Full Stack Developer</span> driven by clean code and innovative solutions. Focused on crafting beautiful interfaces and seamless experiences. I am Graduated from PES Modern College of Engineering, Pune with CGPA of <span className='text-gray-300'>9.25</span>  in <span className='text-gray-300'>B.E. (IT). </span>Currently Working in <Link href='https://www.bitwiseglobal.com/' className='aboutLink'>Bitwise Solutions</Link>  as Software Developer Trainee </p>
+                    <p className='md:w-[460px] tracking-[1px] message text-[18px] font-summery  text-gray-500'>Enthusiastic <span className='text-gray-300'>Full Stack Developer</span> driven by clean code and innovative solutions. Focused on crafting beautiful interfaces and seamless experiences. I am Graduated from PES Modern College of Engineering, Pune with CGPA of <span className='text-gray-300'>9.25</span>  in <span className='text-gray-300'>B.E. (IT).
+                    </span>   {/* Currently Working in <Link href='https://www.bitwiseglobal.com/' className='aboutLink'>Bitwise Solutions</Link>  as Software Developer Trainee  */}</p>
                 </div>
                 <div className="">
                     <h2 className='text-[100px] font-kanit leading-[80px] font-medium mb-[30px] tracking-tight block md:hidden'>About <br></br>Me</h2>
