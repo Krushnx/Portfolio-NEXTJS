@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Dancing+Script:wght@400&family=Nunito:wght@400&family=Merriweather:wght@400&family=Playfair+Display:wght@400&family=Roboto+Slab:wght@400&family=Kanit:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.message
+{
+    font-family: 'Nunito', cursive;
+    font-weight: bolder;
+}
+
+
+.aboutLink:hover
+{
+    border-bottom: 2px solid #8000ff;
+    cursor: pointer !important;
+
+}
+.aboutLink
+{
+    /* color: #ab26e9; */
+    color: #8000ff;
+    display: inline;
+}
+
+.about-img img
+{
+    filter: grayscale(1);
+    transition: all 1s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.about-img img:hover
+{
+    filter: grayscale(0);
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .about-img img
+    {
+        filter: grayscale(0);
+        transition: all 1s;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .about-img{
+        margin-left: -10px;
+
+    }
+  
+  }
+  
+  
+    

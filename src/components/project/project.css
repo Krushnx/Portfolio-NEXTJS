@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Dancing+Script:wght@400&family=Nunito:wght@400&family=Merriweather:wght@400&family=Playfair+Display:wght@400&family=Roboto+Slab:wght@400&family=Kanit:wght@400;700&display=swap');
+
+.workCard
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+.tooltip
+{
+    color: darkgray;
+    text-align: center;
+    font-size: 15px;   
+    position: absolute;
+    /* Fade in tooltip */
+    transition: opacity 0.2s;
+  
+    visibility: hidden;
+    opacity: 0;
+    /* margin-bottom: 55px; */
+}
+
+.hoverME:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
